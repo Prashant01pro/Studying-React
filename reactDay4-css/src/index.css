@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+html,
+body {
+  background: #000;
+}
+
+.page1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page2 {
+  width: 100vw;
+  height: 100vh;
+  background: #342828;
+}
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  background: #b9a5a5;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background: #9107ad;
+  margin: 10px;
+  border-radius: 5px;
+}
