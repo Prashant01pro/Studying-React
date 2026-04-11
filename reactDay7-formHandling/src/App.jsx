@@ -28,7 +28,7 @@ const app = () => {
           <input
             className="border-4 border-purple-500 focus:border-pink-600 rounded-md m-6 p-6 text-2xl outline-none "
             type="text"
-            value={inputVal} // Imp
+            value={inputVal} // Imp : It tells about the current value in the input
             onChange={(e) => {
               setInputVal(e.target.value);
             }}
